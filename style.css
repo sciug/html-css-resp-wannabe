@@ -180,24 +180,67 @@
 
 @media  screen and (max-width:800px) {
 
+    body{
+        font-family: 'Roboto', sans-serif;
+    }
+
     img{height: 120px;}
 
         
-        *{box-sizing: border-box;
-        margin: 0;}
-        
-
-        .row{width: 100%;
-            margin-top: 0;}
-
-            #steps,
-            #lezioni,  
-            #why.container.grey{
-                padding: 2rem;
+    *{box-sizing: border-box;
+    margin: 0;}
     
-    
-            }
-        
+
+    .row{width: 100%;
+        margin-top: 0;}
+
+    #steps,
+    #lezioni,  
+    #why.container.grey{
+        padding: 2rem;
+
+    }
+
+    .row h1{
+        font-size: 2.5rem;
+        margin-bottom:4rem;
+    }
+
+    .row h3{
+        margin: .8rem 0;
+    }
+
+
+
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right,
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third
+     {
+      float: left;
+      width: 30%;
+    }
+
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third{
+        margin: 0;
+    }
+
+
+    #why hr {
+        display: none;
+    }
+
+    #steps .row>.central,
+    #why .row>.second{
+        margin: 0 5%;
+    }
+
+
+
 
 
 
