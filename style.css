@@ -72,3 +72,101 @@
     clear: both;
   }
   
+
+
+
+  @media screen and (max-width:420px) 
+  { 
+      
+    img{height: 150px;}
+
+    
+    *{box-sizing: border-box;
+    margin: 0;}
+      
+        
+        .row{width: 100%;
+        margin-top: 0;}
+
+
+        .row h1{
+            font-size: 2rem;
+            margin:0;
+        }
+
+        .row h3{
+            font-size: 1rem;
+            margin-bottom: 0;
+        }
+
+
+
+
+        #lezioni .row>.left,
+        #lezioni .row>.right {
+        width: 100%;
+        float: none;
+        }
+
+ 
+        #lezioni,  #why.container.grey{
+        background-color: #f2f2cd;
+        padding: 1rem;
+        }
+
+        #lezioni,  
+        #why.container.grey{
+            background-color: #f2f2cd;
+            padding: 1rem;
+            }
+    
+
+
+        #lezioni .row, 
+        #steps .row, #why .row{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: .7rem;
+            }
+
+
+      
+      
+
+        #lezioni .row>.left,
+        #lezioni .row>.right {
+            width: 100%;
+            margin-top:20px; }
+
+
+        #steps.container.grey {
+            background-color: white;
+          }
+
+        #steps .row, #why .row{
+            margin-top: 1rem;
+
+        }
+
+        #steps .row>.left,
+        #steps .row>.central,
+        #steps .row>.right {
+        float: none;
+        width: 100%;
+        margin-top: 2rem;
+        }
+
+
+      
+        #why .row>.first,
+        #why .row>.second,
+        #why .row>.third {
+            
+            margin-top: 2rem;
+        }
+
+        
+
+
+  }
